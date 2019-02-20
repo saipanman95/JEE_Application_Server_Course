@@ -1,0 +1,37 @@
+###############################################################################################
+### THIS SECTION GOES IN THE SERVER.XML RIGHT inside Host tag but above the first Valve tag####
+<Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"
+         channelSendOptions="8">
+          <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+            <Membership className="org.apache.catalina.tribes.membership.McastService"
+                        address="228.0.0.4"
+                        port="45564"
+                        frequency="500"
+                        dropTime="3000"/>
+
+            <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
+                      address="auto"
+                      port="4000"
+                      autoBind="100"
+                      selectorTimeout="5000"
+                      maxThreads="6"/>
+
+            <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
+              <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender"/>
+            </Sender>
+            <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector"/>
+            <Interceptor className="org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor"/>
+
+          </Channel>
+
+          <Valve className="org.apache.catalina.ha.tcp.ReplicationValve"
+                 filter=".*\.gif;.*\.js;.*\.jpg;.*\.png;.*\.css;.*\.txt;"/>
+          <Valve className="org.apache.catalina.ha.session.JvmRouteBinderValve"/>
+          <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener"/>
+      </Cluster>
+
+##############################################################################################################
+### THIS SECTION BELOW GOES IN THE CONTEXT.XML RIGHT BELOW <manager pathname...> TAG AND INSIDE CONTEXT TAG####
+<Manager className="org.apache.catalina.ha.session.DeltaManager"
+                   expireSessionsOnShutdown="false"
+                   notifyListenersOnReplication="true"/>
