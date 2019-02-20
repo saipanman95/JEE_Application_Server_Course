@@ -1,0 +1,5 @@
+brew info mysql
+brew install mysql.
+brew tap homebrew/services
+brew services start mysql
+brew services list

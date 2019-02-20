@@ -1,0 +1,11 @@
+#Used for testing and configuration of initial mysql installation
+mysql -V
+mysqladmin -u root password 'My$3cret'
+#on mac
+mysql -uroot -p
+
+#on windows
+mysql -u root
+
+#for testing new user
+mysql -u hplus_user -p
