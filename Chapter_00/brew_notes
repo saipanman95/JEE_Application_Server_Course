@@ -1,5 +1,9 @@
-brew info mysql
-brew install mysql.
-brew tap homebrew/services
-brew services start mysql
-brew services list
+1. paste following into terminal window:
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2. type: brew update
+3. brew info mysql
+4. brew install mysql.
+5. brew tap homebrew/services
+6. brew services start mysql
+7. brew services list
+8. proceed to notes on mysql_login_details.

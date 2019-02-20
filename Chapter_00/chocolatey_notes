@@ -1,0 +1,15 @@
+#ensure that cmd prompt is opened with administrative role
+1. From search type 'cmd' and wait for search results to come back
+2. Right click on cmd and run as Administrator
+3. Paste or Type:
+  @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+4. close cmd prompt and reopen with steps 1 and 2
+5. type choco to verify installation
+6. Paste or Type:
+  choco upgrade chocolatey
+7. Paste or Type:
+  choco install mysql -y
+  # On windows, it may show red text indicating errors...you should be able to ignore.
+8. close cmd prompt and reopen with steps 1 and 2
+9. type 'mysql -V' to verify mysql installed
+10. proceed to file: mysql_login_details

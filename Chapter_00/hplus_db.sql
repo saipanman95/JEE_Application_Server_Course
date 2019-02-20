@@ -11,3 +11,4 @@ create table products (id smallint unsigned not null auto_increment, product_nam
 insert into products ( id, product_name ) VALUES ( null, 'Fruity Water' );
 insert into products ( id, product_name ) VALUES ( null, 'Juicy Water' );
 insert into products ( id, product_name ) VALUES ( null, 'Wet Water' );
+commit;
