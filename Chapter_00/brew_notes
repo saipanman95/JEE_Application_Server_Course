@@ -1,3 +1,4 @@
+# Following notes to follow
 1. paste following into terminal window:
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. type: brew update
