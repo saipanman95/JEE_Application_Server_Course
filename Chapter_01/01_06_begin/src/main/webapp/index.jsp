@@ -472,7 +472,7 @@
                                                         <div class="siteorigin-widget-tinymce textwidget">
 	                                                        <div class="eds-on-hover">
                                                                 <a href="product-category/supplements/" target="_blank" rel="attachment wp-att-215">
-                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.png" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.jpg" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
                                                                 </a>
                                                                 <p></p>
                                                             </div>
