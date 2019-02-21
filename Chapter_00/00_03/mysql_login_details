@@ -1,0 +1,13 @@
+1. Used for testing and configuration of initial mysql installation
+ mysql -V
+ mysqladmin -u root password 'My$3cret'
+
+2. on mac then do:  mysql -uroot -p
+   otherwise go to step 3 for windows.
+
+3. on windows do: mysql -u root
+
+4. for testing new user do:  mysql -u hplus_user -p
+
+5. proceed to hplus_db.sql; you can copy and paste contents.
+
