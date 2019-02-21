@@ -432,7 +432,6 @@
                       </div>
                     </nav>
 
-
                     <!-- #site-navigation -->
                     <!--
                     <ul id="site-header-cart" class="site-header-cart menu">
@@ -454,6 +453,8 @@
                 </div>
             </div>
         </header>
+
+        <div class="h2">Message from Management: ${myValue}</div>
         <!-- #masthead -->
         <div id="content" class="site-content" tabindex="-1">
 		    <div class="col-full">
@@ -471,7 +472,7 @@
                                                         <div class="siteorigin-widget-tinymce textwidget">
 	                                                        <div class="eds-on-hover">
                                                                 <a href="product-category/supplements/" target="_blank" rel="attachment wp-att-215">
-                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.jpg" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.png" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
                                                                 </a>
                                                                 <p></p>
                                                             </div>

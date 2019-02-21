@@ -9,6 +9,6 @@ public class MyBean {
 
     @Pattern(regexp = "[a-z-A-Z]*", message = "Message has invalid characters")
     public String getMessage(){
-        return "Hello World1";
+        return " Welcome to HPlus Sport";
     }
 }
