@@ -85,9 +85,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/missingJ2ee.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/icons.css" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$USER_HOME$/json_css/isu-clnt.json" />
-        <option value="$USER_HOME$/json_css/isu-devl.json" />
-        <option value="$USER_HOME$/json_css/bannerextensibility.scss" />
+        <option value="$PROJECT_DIR$/../json_css/isu-clnt.json" />
+        <option value="$PROJECT_DIR$/../json_css/isu-devl.json" />
+        <option value="$PROJECT_DIR$/../json_css/bannerextensibility.scss" />
         <option value="$PROJECT_DIR$/src/main/java/com/mdrsolutions/MyMessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mdrsolutions/MyServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
@@ -297,7 +297,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/context" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/style(1).css" />
-    <entry file="file://$USER_HOME$/Documents/Hplussport_index.htm">
+    <entry file="file://$PROJECT_DIR$/../Documents/Hplussport_index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="657" selection-end-column="14" />
@@ -309,75 +309,75 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/Couple-running_467520371-1.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/cropped-HSport_01-192x192.png" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css" />
-    <entry file="file://$USER_HOME$/NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo.png">
+    <entry file="file://$PROJECT_DIR$/../NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-dashboard.png">
+    <entry file="file://$PROJECT_DIR$/../NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-dashboard.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-2.png">
+    <entry file="file://$PROJECT_DIR$/../NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-dashboard-long.png">
+    <entry file="file://$PROJECT_DIR$/../NetBeansProjects/TranscriptDashboard/src/main/webapp/static/images/indstate-logo-dashboard-long.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/json_css/isu-clnt.json">
+    <entry file="file://$PROJECT_DIR$/../json_css/isu-clnt.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/json_css/isu-devl.json">
+    <entry file="file://$PROJECT_DIR$/../json_css/isu-devl.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/json_css/bannerextensibility.scss">
+    <entry file="file://$PROJECT_DIR$/../json_css/bannerextensibility.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="4058" column="30" selection-start-line="4058" selection-start-column="30" selection-end-line="4058" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/Validation.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/Validator.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/ValidatorFactory.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/ValidatorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/ConstraintViolation.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/validation/ConstraintViolation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/servlet/annotation/WebServlet.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/servlet/annotation/WebServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/servlet/http/HttpServlet.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
