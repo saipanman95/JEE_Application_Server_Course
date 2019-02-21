@@ -17,13 +17,11 @@
 
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
             <link rel="profile" href="http://gmpg.org/xfn/11">
-
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <title>H+ Sport – Revive, refuel, regenerate</title>
             <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-            <script type="text/javascript">
-                //window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"..\/static\/wp-emoji-release.min.js?ver=4.9.8"}};
-                !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-            </script>
             <script src="static/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
             <style type="text/css">
                 img.wp-smiley,
@@ -370,6 +368,9 @@
                                 color: #000000;
                             }
                         }
+                        .dropdown:hover .dropdown-menu {
+                            display: block;
+                        }
             </style>
             <script type="text/javascript" src="static/jquery.js"></script>
             <script type="text/javascript" src="static/jquery-migrate.min.js"></script>
@@ -381,6 +382,7 @@
         <meta name="msapplication-TileImage" content="static/cropped-HSport_01-270x270.png">
 	</head>
 	<body class="home page-template-default page page-id-2 wp-custom-logo siteorigin-panels  siteorigin-panels-home woocommerce-js storefront-full-width-content right-sidebar woocommerce-active" style="">
+
 	<div id="page" class="hfeed site">
         <header id="masthead" class="site-header" role="banner" style="">
             <div class="col-full">
@@ -404,80 +406,32 @@
             </div>
             <div class="storefront-primary-navigation">
                 <div class="col-full">
-                    <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Navigation">
-                        <button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false">
-                            <span>Menu</span>
-                        </button>
-                        <div class="primary-navigation">
-                            <ul id="menu-top-menu" class="menu nav-menu" aria-expanded="false">
-                                <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-87">
-                                    <a href="">Home</a>
-                                </li>
-                                <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-83">
-                                    <a href="company/">Company</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86">
-                                            <a href="company/philosophy/">Philosophy</a>
-                                        </li>
-                                        <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
-                                            <a href="company/history/">History</a>
-                                        </li>
-                                        <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85">
-                                            <a href="company/people/">People</a>
-                                        </li>
-                                    </ul>
-                                 </li>
-                                <li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-261">
-                                    <a href="products/">Products</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-602">
-                                            <a href="product-category/active-wear-women/">H+ ACTIVE Apparel</a>
-                                        </li>
-                                        <li id="menu-item-599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599">
-                                            <a href="product-category/supplements/">H+ POWER Supplements</a>
-                                        </li>
-                                        <li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91">
-                                            <a href="products/mineral-water/">H+ SPORT Mineral Water</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260">
-                                    <a href="shop/">Shop</a>
-                                </li>
-                                <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126">
-                                    <a href="blog/">Blog</a>
-                                </li>
-                                <li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-                                    <a href="contact/">Contact</a>
-                                </li>
+                    <nav class="navbar navbar-toggleable-sm navbar-trans">
+                      <div class="container-fluid">
+
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="company/">Company <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="company/philosophy/">Philosophy</a></li>
+                              <li><a href="company/history/">History</a></li>
+                              <li><a href="company/people/">People</a></li>
                             </ul>
-                        </div>
-                        <div class="menu">
-                            <ul>
-                                <li class="current_page_item"><a href="/">Home</a></li>
-                                <li class="page_item page-item-124"><a href="/blog/">Blog</a></li>
-                                <li class="page_item page-item-256"><a href="/cart/">Cart</a></li>
-                                <li class="page_item page-item-257"><a href="/checkout/">Checkout</a></li>
-                                <li class="page_item page-item-64 page_item_has_children"><a href="company/">Company</a>
-                                    <ul class="children">
-                                        <li class="page_item page-item-66"><a href="company/history/">History</a></li>
-                                        <li class="page_item page-item-70"><a href="company/people/">People</a></li>
-                                        <li class="page_item page-item-68"><a href="company/philosophy/">Philosophy</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_item page-item-92"><a href="contact/">Contact</a></li>
-                                <li class="page_item page-item-258"><a href="my-account/">My Account</a></li>
-                                <li class="page_item page-item-51 page_item_has_children"><a href="/products/">Products</a>
-                                    <ul class="children">
-                                        <li class="page_item page-item-55"><a href="products/active-wear/">H+ ACTIVE apparel</a></li>
-                                        <li class="page_item page-item-57"><a href="products/supplements/">H+ POWER supplements</a></li>
-                                        <li class="page_item page-item-53"><a href="products/mineral-water/">H+ SPORT mineral water</a></li>
-                                    </ul>
-                                </li>
-                                <li class="page_item page-item-255"><a href="shop/">Shop</a></li>
+                          </li>
+                          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="products/">Products<span class="caret"></span></a>
+                          	<ul class="dropdown-menu">
+                              <li><a href="product-category/active-wear-women/">H+ ACTIVE Apparel</a></li>
+                              <li><a href="product-category/supplements/">H+ POWER Supplements</a></li>
+                              <li><a href="products/mineral-water/">H+ SPORT Mineral Water</a></li>
                             </ul>
-                        </div>
+                          </li>
+                          <li><a href="shop/">Shop</a></li>
+                          <li><a href="blog/">Blog</a></li>
+                          <li><a href="contact/">Contact</a></li>
+                        </ul>
+                      </div>
                     </nav>
+
                     <!-- #site-navigation -->
                     <!--
                     <ul id="site-header-cart" class="site-header-cart menu">
@@ -499,6 +453,8 @@
                 </div>
             </div>
         </header>
+
+        <div class="h2">Message from Management: ${myValue}</div>
         <!-- #masthead -->
         <div id="content" class="site-content" tabindex="-1">
 		    <div class="col-full">
@@ -516,7 +472,7 @@
                                                         <div class="siteorigin-widget-tinymce textwidget">
 	                                                        <div class="eds-on-hover">
                                                                 <a href="product-category/supplements/" target="_blank" rel="attachment wp-att-215">
-                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.jpg" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <img class="aligncenter wp-image-215 size-full" src="static/vitamin-product-line_text.png" alt="Rebuild and nourish" width="1000" height="667"  sizes="(max-width: 1000px) 100vw, 1000px">
                                                                 </a>
                                                                 <p></p>
                                                             </div>
