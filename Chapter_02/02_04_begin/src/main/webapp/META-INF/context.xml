@@ -1,9 +1,9 @@
 <Context>
 
-    <Resource name="jdbc/hplussport_db" auth="Container" type="javax.sql.DataSource"
+    <Resource name="jdbc/hplus_db" auth="Container" type="javax.sql.DataSource"
               maxActive="50" maxIdle="30" maxWait="10000"
-              username="hplus_admin" password="My$3cret"
+              username="hplus_user" password="My$3cret"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/hplussport_db"/>
+              url="jdbc:mysql://localhost:3306/hplus_db"/>
 
 </Context>
