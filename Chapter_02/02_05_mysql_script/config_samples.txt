@@ -1,0 +1,14 @@
+# If you recieve the following error, then you need to address the password storage:
+Unable to load authentication plugin 'caching_sha2_password'.
+
+# To address the above error:
+1. type at command line and hit enter:  mysql -u root -p
+2. enter password for root
+3. you should be at mysql prompt
+4. paste command: ALTER USER 'hplus_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'My$3cret';
+5. hit enter;
+6. type: commit;
+7. hit enter and quit
+
+# class path stuff
+Oracle/Middleware/Oracle_Home/oracle_common/modules/mysql-connector-java-8.0.15.jar
