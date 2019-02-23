@@ -1,3 +1,5 @@
+#copy entire text below and paste into mysql cmd prompt
+
 create database hplus_db;
 use hplus_db;
 create user 'hplus_user'@'localhost' IDENTIFIED BY 'My$3cret';
